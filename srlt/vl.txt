@@ -1,0 +1,2 @@
+Got successful connection!
+Grabbing video load list..
