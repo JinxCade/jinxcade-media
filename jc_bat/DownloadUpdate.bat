@@ -16,3 +16,4 @@ echo Downloaded JinxCadeCode.bat
 echo Finished and opening file after user presses a key
 pause
 start JinxCade.bat
+exit /b
