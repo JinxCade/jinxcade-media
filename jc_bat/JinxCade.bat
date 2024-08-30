@@ -5,7 +5,7 @@ color %color%
 title JinxCade: Menu 
 cls 
 echo THIS IS THE ONLY FILE THAT HAS BEEN RECOVERED, ALL OTHERS ARE BEING RECREATED OR REDONE. 
-echo JinxCade.bat v0.3 
+echo JinxCade.bat v0.3.0.4
 echo. 
 echo 1. Play 
 echo 2. Settings 
@@ -15,6 +15,8 @@ echo 5. AddOns
 echo 6. Custom Opener 
 echo 7. Updates 
 echo 8. Program 
+echo 9. Calculator (New)
+echo 10. Redownload assets (New)
 set /p answer=Type the number of your option and press enter: 
 if %answer%==1 goto Play_00 
 if %answer%==2 goto Settings 
@@ -25,6 +27,7 @@ if %answer%==6 goto Cust
 if %answer%==7 goto Update 
 if %answer%==8 goto Program 
 if %answer%==9 goto Calc 
+if %answer%==10 goto downl
 if %answer%==dev goto Dev 
 goto Menu 
 :Exit0 
@@ -394,3 +397,6 @@ cls
 echo Done 18 
 goto dev 
 :dev_git
+:downl
+start StartDWLN.bat
+exit
