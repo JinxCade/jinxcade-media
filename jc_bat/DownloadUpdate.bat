@@ -13,5 +13,6 @@ powershell.exe -Command (new-object System.Net.WebClient).DownloadFile('https://
 echo Downloaded Updates.bat 
 powershell.exe -Command (new-object System.Net.WebClient).DownloadFile('https://jinxcade.github.io/jinxcade-media/jc_bat/JinxCadeCode.bat','JinxCadeCode.bat') 
 echo Downloaded JinxCadeCode.bat 
-echo Finished 
+echo Finished and opening file after user presses a key
 pause
+start JinxCade.bat
