@@ -42,7 +42,7 @@ title JinxCade: Goodbye!
 cls 
 echo Thanks for playing! 
 pause 
-exit /b 
+exit
 :Credits 
 title JinxCade: Credits 
 cls 
