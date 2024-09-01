@@ -17,6 +17,14 @@ powershell.exe -Command (new-object System.Net.WebClient).DownloadFile('https://
 echo Downloaded Music.bat 
 powershell.exe -Command (new-object System.Net.WebClient).DownloadFile('https://jinxcade.github.io/jinxcade-media/jc_bat/RefreshMusic.bat','RefreshMusic.bat') 
 echo Downloaded RefreshMusic.bat
+powershell.exe -Command (new-object System.Net.WebClient).DownloadFile('https://jinxcade.github.io/jinxcade-media/jc_bat/Add-On1.bat','Add-On1.bat') 
+echo Downloaded Add-On1.bat
+powershell.exe -Command (new-object System.Net.WebClient).DownloadFile('https://jinxcade.github.io/jinxcade-media/jc_bat/Video.bat','Video.bat') 
+echo Downloaded Video.bat
+powershell.exe -Command (new-object System.Net.WebClient).DownloadFile('https://jinxcade.github.io/jinxcade-media/jc_bat/0open.bat','0open.bat') 
+echo Downloaded 0open.bat
+powershell.exe -Command (new-object System.Net.WebClient).DownloadFile('https://jinxcade.github.io/jinxcade-media/jc_bat/RefreshVideo.bat','RefreshVideo.bat') 
+echo Downloaded RefreshVideo.bat
 echo Finished and opening file after user presses a key
 pause
 start JinxCade.bat

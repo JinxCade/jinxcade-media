@@ -1,0 +1,2 @@
+start JinxCade.bat
+exit

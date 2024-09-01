@@ -9,6 +9,7 @@ echo Todays songs:
 echo o. Play a external song (offline usage)
 echo r. Refresh
 echo e. Go back to JinxCade.bat
+echo g. Play a audio URL
 echo 1. NaN
 echo 2. NaN
 echo 3. NaN
@@ -22,6 +23,7 @@ set /p song=Input your choice and hit enter:
 if %song%==o goto ext
 if %song%==r goto ref
 if %song%==e goto bac
+if %song%==g goto url
 if %song%==1
 if %song%==2
 if %song%==3
@@ -55,3 +57,13 @@ goto ext
 :bac
 start JinxCade.bat
 exit
+:url
+echo Insert URL with mp3 audio!
+echo. 
+echo e. Exit
+set /p opt=Type in URL or exit: 
+if %opt%==e goto Main
+set /p name=Type in the music name: 
+powershell.exe -Command (new-object System.Net.WebClient).DownloadFile('%opt%','%name%.mp3') 
+start %name%.mp3
+goto url

@@ -5,7 +5,7 @@ color %color%
 title JinxCade: Menu 
 cls 
 echo THIS IS THE ONLY FILE THAT HAS BEEN RECOVERED, ALL OTHERS ARE BEING RECREATED OR REDONE. 
-echo JinxCade.bat v0.3.0.4
+echo JinxCade.bat v0.3.0.6
 echo. 
 echo 1. Play 
 echo 2. Settings 
@@ -201,14 +201,20 @@ if %game%==1 goto Start
 title JinxCade: Extra Programs 
 cls 
 echo 1. MP3 Player 
-echo 2. Exit 
+echo 2. MP4 Player
+echo 3. Exit 
 set /p add=Pick a number and tap Enter: 
 if %add%==1 goto Mp3 
-if %add%==2 goto Menu 
+if %add%==2 goto Mp4
+if %add%==3 goto Menu 
 :Mp3 
 title JinxCade: Opening... 
 start Add-On0.bat 
 exit 
+:Mp4
+title JinxCade: Opening...
+start Add-On1.bat
+exit
 :Cust 
 title JinxCade: Opening... 
 start JinxyCustomOpener.bat 

@@ -1,0 +1,2 @@
+start Video.bat
+exit
