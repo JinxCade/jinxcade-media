@@ -73,7 +73,7 @@ echo 4. Go Back To Menu
 set /p settings=Type the number of your option and press enter : 
 if %settings%==1 goto Help 
 if %settings%==2 goto JinxCade 
-if %settings%==3 goto Color 
+if %settings%==3 goto Color
 if %settings%==4 goto Menu 
 :Help 
 title JinxCade: Help 
@@ -162,7 +162,7 @@ if %win%==N goto Start
 :Save 
 title JinxCade: Saving 
 goto Start 
-:Color 
+:Color
 title JinxCade: Color Selection 
 cls 
 echo Pick any color combination you'd like! Below are a cheat sheet for color selection. 
