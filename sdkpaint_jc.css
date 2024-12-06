@@ -1,0 +1,81 @@
+body:before {content:"News: Huge plans soon";text-align:center;display:block;color:#100632!important;padding:8px;background-color:#9A9E9B;font-family:Audiowide,Arial,sans-serif;font-weight:normal;font-style:normal;}
+body:after {content:"2019-2024 | JinxCade | jinxcade.venith.net 2023-2024";text-align:center;display:block;color:#100632!important;padding:8px;border:1px transparent solid;background-color:#9A9E9B;font-family:Audiowide,Arial,sans-serif;font-weight:normal;font-style:normal;}
+body {background-color:#9A9E9B!important;cursor:url(https://jinxcade.venith.net/cursor.png);background-image:linear-gradient(black,#121613,#454946,#121613,black)!important;}
+
+
+.alerts_popup::before { content: "There is a " !important; }
+.alerts_popup::after { content: "! Please read it, and come back to my profile later!" !important; }
+
+
+IMG[src="/images/art_gallery/248625.png"] {content:url(/images/art_gallery/248626.png)!important;}
+IMG[src="/images/logo.png"] {content:url(/images/art_gallery/248566.png)!important;height:50px;}
+
+
+a {color:#0000ff!important;border-radius:1px!important;font-family:Audiowide,Arial,sans-serif;font-weight:normal;font-style:normal!important;}
+
+
+a[href="?id=146497&block=true"]{color:#ff0000!important;}
+.row {color:#330066!important;}
+.head {color:#4400ff!important;}
+.nav_div {color:#554466!important;}
+.avatar { border-radius: 50px !important; height: 35px !important; width: 35px !important; }
+.nav_avatar { border-radius: 20px !important; height: 32px !important; width: 32px !important;cursor:url(https://jinxcade.venith.net/cursor_click.png);}
+.form_button { background: white!important; color: #100632 !important; border-style: solid !important; border-color: #FFFF00 !important;border-width: 1px !important;text-align: center center !important; border-radius: 25px !important; font-family: Audiowide,Arial,sans-serif;font-weight:normal;font-style:normal; !important; cursor:url(https://jinxcade.venith.net/cursor_image.png);cursor:url(https://jinxcade.venith.net/cursor_click.png);}
+textarea{border-color:purple!important;cursor:url(https://jinxcade.venith.net/cursor_text.png);color:#100632;}
+.form_textarea { background-color:#9A9E9B!important;}
+
+
+h1, div {background-color:#9A9E9B!important;cursor:url(https://jinxcade.venith.net/cursor_text.png);}
+td, div, .menu_section, .comments, .textarea, h1{border-color:#9A9E9B!important;color:#000000!important;text-align:center!important;}
+div {border-radius: 4px !important;font-family: Audiowide,Arial,sans-serif;font-weight:normal;font-style:normal;}
+
+
+h1 {border-radius: 4px !important;font-family:Heading Now,Arial,sans-serif;font-weight:normal;font-style:normal;color:white;}
+p {border-radius: 4px !important;font-family:Audiowide,Arial,sans-serif;font-weight:normal;font-style:normal;}
+textarea {border-radius: 2px !important;font-family:Audiowide,Arial,sans-serif;font-weight:normal;font-style:normal;}
+
+
+@font-face {font-family:'Audiowide';src:url(https://jinxcade.github.io/jinxcade-media/fonts/Yusei+Magic.ttf);}
+@font-face {font-family:'Heading Now';src:url(https://jinxcade.github.io/jinxcade-media/fonts/DelaGothicOne.ttf);}
+
+
+a[href^="shoutbox.php"]{color:#00ff00!important;}
+a[href^="/group"]{color:#8800ff!important;}
+a[href^="members.php"]{color:#6600ff!important;}
+a[href^="sketchpad.php"]{display : none;}
+a[href^="page.php"] {color:#6600ff!important;}
+a[href="page.php?id=12156"] {color:#ffffff!important;}
+a[href="page.php?id=12156"]::before {content:"☆ "!important;color: purple!important}
+a[href="page.php?id=12156"]::after {content:" ☆"!important;color: purple!important}
+input {font-family:Audiowide,Arial,sans-serif;font-weight:normal;font-style:normal!important;}
+IMG[src="/images/icons/icon_home.png"] {content:url(/apple-touch-icon.png)!important;}
+a[href="/group"] {display : none;}
+
+
+
+.menu_section[style$="200px"] {width: initial !important;display: grid;grid-template-columns: auto;}
+@media only screen and (min-width: 370px) {.menu_section[style$="200px"] {grid-template-columns: auto auto;}}
+@media only screen and (min-width: 542px) {.menu_section[style$="200px"] {grid-template-columns: auto auto auto;}}
+a[href="#image"] {overflow: hidden;position: absolute;height: 0;width: 0;}
+.menu_section[style$=":0px"] {border-radius: 6px;padding: calc(0.5em + 6px) 0.5em 0.5em 0.5em !important;position: sticky;top: -6px;background-color: #1f2020;}
+.nav_div[style$="#f44"] {color:#ff0000!important;}
+
+
+
+IMG[src="/images/icons/icon_home.png"] {content:url(/images/art_gallery/248822.png)!important;}
+IMG[src="/images/icons/icon_back.png"] {content:url(/images/art_gallery/248823.png)!important;}
+IMG.icon {background-image:url(/images/art_gallery/248824.png)!important;height:48px;width:48px;}
+IMG[src="/images/logo.png"] {content:url(/images/art_gallery/248815.png)!important;}
+IMG[src="/images/badges/author2.png"] {content:url(/images/art_gallery/248816.png)!important;}
+IMG[src="/images/badges/courier2.png"] {content:url(/images/art_gallery/248817.png)!important;}
+IMG[src="/images/badges/poster1.png"] {content:url(/images/art_gallery/248818.png)!important;}
+IMG[src="/images/badges/socialite6.png"] {content:url(/images/art_gallery/248819.png)!important;}
+IMG[src="/images/rating_e32.png"] {content:url(/images/art_gallery/248820.png)!important;}
+IMG[src="/images/rating_t32.png"] {content:url(/images/art_gallery/248821.png)!important;}
+IMG[src="/images/flag20.png"] {content:url(/images/art_gallery/248825.png)!important;}
+IMG[src="/images/button_delete.png"] {content:url(/images/art_gallery/248826.png)!important;}
+
+
+
+
+/*Just silly data, I will use this as a dummy code for later a[href="?id=146497&block=true"]{display : none;}*/
