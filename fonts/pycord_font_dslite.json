@@ -1,0 +1,25 @@
+{
+    "spec": 1,
+    "name": "DS Font",
+    "previewText": "DS Font - By JinxCade",
+    "main": {
+        "ABCGintoNord-ExtraBold": "https://jinxcade.github.io/jinxcade-media/fonts/ds-lite.ttf",
+        "ggsans-Bold": "https://jinxcade.github.io/jinxcade-media/fonts/ds-lite.ttf",
+        "ggsans-BoldItalic": "https://jinxcade.github.io/jinxcade-media/fonts/ds-lite.ttf",
+        "ggsans-ExtraBold": "https://jinxcade.github.io/jinxcade-media/fonts/ds-lite.ttf",
+        "ggsans-ExtraBoldItalic": "https://jinxcade.github.io/jinxcade-media/fonts/ds-lite.ttf",
+        "ggsans-Medium": "https://jinxcade.github.io/jinxcade-media/fonts/ds-lite.ttf",
+        "ggsans-MediumItalic": "https://jinxcade.github.io/jinxcade-media/fonts/ds-lite.ttf",
+        "ggsans-Normal": "https://jinxcade.github.io/jinxcade-media/fonts/ds-lite.ttf",
+        "ggsans-NormalItalic": "https://jinxcade.github.io/jinxcade-media/fonts/ds-lite.ttf",
+        "ggsans-Semibold": "https://jinxcade.github.io/jinxcade-media/fonts/ds-lite.ttf",
+        "ggsans-SemiboldItalic": "https://jinxcade.github.io/jinxcade-media/fonts/ds-lite.ttf",
+        "NotoSans-Bold": "https://jinxcade.github.io/jinxcade-media/fonts/ds-lite.ttf",
+        "NotoSans-ExtraBold": "https://jinxcade.github.io/jinxcade-media/fonts/ds-lite.ttf",
+        "NotoSans-Medium": "https://jinxcade.github.io/jinxcade-media/fonts/ds-lite.ttf",
+        "NotoSans-Normal": "https://jinxcade.github.io/jinxcade-media/fonts/ds-lite.ttf",
+        "NotoSans-NormalItalic": "https://jinxcade.github.io/jinxcade-media/fonts/ds-lite.ttf",
+        "NotoSans-Semibold": "https://jinxcade.github.io/jinxcade-media/fonts/ds-lite.ttf",
+        "SourceCodePro-Semibold": "https://jinxcade.github.io/jinxcade-media/fonts/ds-lite.ttf"
+    }
+}
